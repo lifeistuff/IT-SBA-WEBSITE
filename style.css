@@ -8,3 +8,8 @@ header{
     left: 0;
     width: 100%
 }
+
+header .logo{
+    position: relative;
+    
+}
