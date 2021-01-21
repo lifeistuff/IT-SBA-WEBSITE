@@ -96,17 +96,35 @@
 }
 
 /* Stuff for About Section */
-.about{
+.election-data{
   position: relative;
   background: white;
   height: 100vh;
 }
 
-.about p{
+.election-data p{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: xx-large;
   text-align: center;
+  color: rgb(216, 41, 36)
+}
+
+.election-data table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(216, 41, 36);
+  }
 }
 
 /* Stuff for Contact Info Section */
