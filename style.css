@@ -1,3 +1,4 @@
+/* Universal Stuff */
 *{
     padding: 0;
     margin: 0;
@@ -5,13 +6,12 @@
     list-style: none;
     box-sizing: border-box;
   }
-  body{
-    background-color: black;
-  }
+
+  /* Navigation Bar Stuff */
   nav{
-    background: #ffffff;
     height: 80px;
     width: 100%;
+    background: #ffffff;
   }
   label.logo{
     position: relative;
@@ -74,3 +74,34 @@
     }
   }
   
+/* Sections Stuff */
+.about{
+  background: black;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.about p{
+  color: white;
+  padding: 35px
+}
+
+/* Stuff for Table Section */
+.table{
+  background: white;
+  height: 100vh;
+}
+
+.table p{
+  
+}
+
+/* Stuff for Contact Info Section */
+.contact{
+  background: red;
+  height: 100vh;
+}
+
+.contact p{
+
+}
