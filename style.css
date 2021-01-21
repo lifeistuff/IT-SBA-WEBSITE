@@ -125,14 +125,3 @@
   tr:nth-child(even) {
     background-color: rgb(216, 41, 36);
   }
-}
-
-/* Stuff for Contact Info Section */
-.contact{
-  background: red;
-  height: 100vh;
-}
-
-.contact p{
-
-}
