@@ -34,7 +34,7 @@
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    padding: 7px 13px;
+    padding: 13px;
     border-radius: 3px;
     text-transform: uppercase;
   }
@@ -58,7 +58,7 @@
       width: 100%;
       height: 100vh;
       background: #ffffff;
-      top: 80px;
+      top: 10px;
       left: -100%;
       text-align: center;
       transition: all .5s;
@@ -78,13 +78,16 @@
   
 /* Sections Stuff */
 .about{
-  background: black;
+  background-image: url(scenery.jpg);
   box-sizing: border-box;
-  height: 100vh;
+  height: 90vh;
 }
 
 .about p{
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: large;
   padding: 35px
 }
 
